@@ -1,0 +1,26 @@
+{state.CartSummary((MapId=>{
+    const ItemReducer = MapId.ProductPrice
+    const NetReducer = MapId.NetPrice
+    const PriceReducer = NetReducer - ItemReducer
+    const NewItems ={
+        ProductId:action.payloadId,
+        Productname: action.payloadProductName,
+        UserPurchaseName: action.payloadUserName,
+        UserID:action.payloadUserId,
+        Productsize:action.PayloadSize,
+        ProductQuantity:action.payloadQuantity,
+        NetPrice:PriceReducer,
+        ProductPrice:action.payloadDefaultPrice
+
+    }
+
+    return{
+        CartSummary:[...state.CartSummary,NewItems],
+        CartItems: state.CartItems - 1,
+        Amount: state.Amount + TotalSum,
+
+    
+   
+    }
+
+}))}

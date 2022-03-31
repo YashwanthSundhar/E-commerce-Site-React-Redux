@@ -1,0 +1,87 @@
+.TotalSummary{
+    width: 80%;
+    height:800px;
+    margin-left: 10%;
+    margin-top: 2%;
+    background-color:#f6f5f6;
+    display: flex;
+}
+
+.User-Data-Fetched{
+    width:40%;
+    height: 800px;
+  
+    float: left;
+    text-align: left;
+}
+
+.User-Data-Fetched h4{
+  
+    padding-left: 25px;
+    font-weight: 800;
+   
+}
+.User-Data-Fetched h2{
+    padding-left: 25px;
+}
+label{
+   
+    padding-left: 25px;
+    font-size: medium;
+
+}
+
+.Product-Data-Fetched{
+    width:60%;
+    height: 800px;
+    overflow: scroll;
+   
+
+}
+.Product-cart{
+    width:90%;
+    background-color: white;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.Product-left{
+    width:50%;
+    float: left;
+    
+}
+.Product-mid{
+    width:40%;
+   
+    display: block;
+    
+}
+.Product-right{
+   width:40%;
+  
+    
+}
+.Proceed{
+   
+    width:100px;
+    height:40px;
+    background-color: black;
+    color: white;
+    border:none;
+    top:0;
+    margin-top: 0;
+    border-radius: 5px;
+}
+.Total-Sum{
+    width: 100%;
+    height:100px;
+    background-color: black;
+    text-align: right;
+    
+}
+.Total-Sum h4{
+   
+    padding-top: 15px;
+    color: white;
+    
+}

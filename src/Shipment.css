@@ -1,0 +1,27 @@
+.Shipment-Detail{
+    width: 80%;
+    height:700px;
+    background-color:#f6f5f6;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding-top: 5%;
+    text-align: left;
+    
+}
+.Shipment-Detail h4{
+    margin-left: 285px;
+}
+.Shipment-select{
+    margin-left: 18%;
+    width:200px
+}
+button{
+    width:100px;
+    height:40px;
+    background-color: black;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-left: 75%;
+}
